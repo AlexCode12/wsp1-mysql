@@ -12,22 +12,29 @@ OM apache2 inte vill sammarbeta (BranchCache ligger på port 80)
 
 ## Tjänster
 
-## Öppna Tjänster
+* Öppna Tjänster
 
-## Sortera i bokstavsordning
+* Sortera i bokstavsordning
 
-## "BranchCache"
+* "BranchCache"
 
-## Egenskaper
+* Egenskaper
 
-## Stoppa + Inaktivera
+* Stoppa + Inaktivera
 
-## Återställning
+* Återställning
 
-## Sedan "Ingen Åtgärd" på samtliga tre
+* Sedan "Ingen Åtgärd" på samtliga tre
 
-## Verkställ
+* Verkställ
 
-## OK
+* OK
 
-## Då funkar det!
+* Då funkar det!
+
+## MYSQL
+
+**setup**
+Kör
+	sudo mysql -u root
+
