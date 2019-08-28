@@ -37,6 +37,9 @@ OM apache2 inte vill sammarbeta (BranchCache ligger på port 80)
 **setup**
 Kör
 	sudo mysql -u root
+	
+	
 	för användare:
+	
 	grant all privileges on *.* to 'username'@'localhost' identified by 'password'
 
