@@ -41,5 +41,5 @@ Kör
 	
 	för användare:
 	
-	grant all privileges on *.* to 'username'@'localhost' identified by 'password'
+	grant all privileges on *.* to 'username'@'localhost' identified by 'password';
 
