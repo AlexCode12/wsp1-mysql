@@ -38,11 +38,20 @@ OM apache2 inte vill sammarbeta (BranchCache ligger på port 80)
 Kör
 	sudo mysql -u root
 	
+För att få till localhost/~användarnamn
+Gå till 	
+	etc/apache2
+
+Kör:
+
+	sudo a2enmod userdir
+Och
+
+
+	sudo service apache2 restart
 	
-sudo a2enmod userdir
 	
-	
-	för användare:
+	för nya användare:
 	
 	grant all privileges on *.* to 'username'@'localhost' identified by 'password';
 
