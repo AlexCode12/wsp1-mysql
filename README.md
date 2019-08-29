@@ -39,6 +39,9 @@ Kör
 	sudo mysql -u root
 	
 	
+sudo a2enmod userdir
+	
+	
 	för användare:
 	
 	grant all privileges on *.* to 'username'@'localhost' identified by 'password';
