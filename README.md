@@ -51,7 +51,16 @@ Och
 	sudo service apache2 restart
 	
 	
-	för nya användare:
+för nya användare:
 	
 	grant all privileges on *.* to 'username'@'localhost' identified by 'password';
 
+
+För att ändra i PHP:n (kommentera bort):
+
+Gå till och kör:
+
+	
+	cd mods-aviable/
+	sudo nano php7.2.conf
+	sudo service apache2 restart
